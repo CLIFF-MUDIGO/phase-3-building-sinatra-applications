@@ -44,4 +44,9 @@ group :test do
   gem "rack-test", "~> 1.1"
 end
 
+# Add the specific version of mustermann gem
+gem "mustermann", "1.1.1"
+gem "rerun" # Add the rerun gem here
 
+# Gemfile
+gem 'puma'
